@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="swip.js"></script> <script src="pokefile.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Proyecto</title>
+</head>
+<body>
+    <div class="container-lg p-6 bg-dark">
+    <div id="busqueda"class="container, form-group">
+        
+        <label for="Busca un personaje de Star wars"></label>
+    <input  class="form-control" placeholder="Escribe el Personaje" type=""   class="from-control"id="nombrePersonajes" type="text">
+    <button onclick="botonBuscar()"> Buscar </button>
+
+    </div>
+
+    <div id="cardPersonaje">
+
+    </div>
+    <div class="pokemon">
+
+        <label for="Busca un pokemon "></label>
+        <input  class="form-control" placeholder="Escribe un Pokemon" type=""   class="from-control"id="nombrePokemon" type="text">
+    <button onclick="botonBuscarP()"> Buscar </button>
+
+    </div>
+    <div id="cardPokemon">
+        <div id="imgPoke"></div>
+        
+    </div>
+</div>
+</body>
+</html>
